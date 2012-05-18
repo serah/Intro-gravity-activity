@@ -46,7 +46,7 @@ class Gcompris_intro_gravity:
     print "intro_gravity start"
 
     # Set the buttons we want in the bar
-    gcompris.bar_set(gcompris.BAR_LEVEL)
+    gcompris.bar_set(0)
 
 
     # Create our rootitem. We put each canvas item in it so at the end we
